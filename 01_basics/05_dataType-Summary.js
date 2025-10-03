@@ -33,3 +33,27 @@ const myFunction = function(){
 }
 
 console.log(typeof BigNumber);
+
+//******************************************** Memory *********************************************************
+
+// Stack (Premitive), Heap (Non Premitive)
+
+let myYouTubename = "Techy_amit"
+
+let anothername = "vaibhav"
+
+console.log(myYouTubename);
+console.log(anothername);
+
+let userOne ={
+    email: "user@gmail.com",
+    upi: "user@ybl"                     
+}
+
+let UserTwo = userOne
+UserTwo.email = "vaibhavkushwaha696@gmail.com"
+
+console.log(userOne)
+console.log(UserTwo
+    
+)
