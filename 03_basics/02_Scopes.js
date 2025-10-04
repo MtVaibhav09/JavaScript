@@ -14,15 +14,39 @@ let a = 300
 if (true){                    // This is called as Block Scope
     let a = 10
     const b = 20
-    console.log("Inner: ",a);
+    // console.log("Inner: ",a);
     //var c = 30
 }
 
-for (let i = 0; i < array.length; i++) {
-    const element = array[i];
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
     
-}
+//}
 
-console.log ( a );
+// console.log ( a );
 // console.log ( b );
 // console.log ( c );
+
+function One(){
+    const username = "Vaibhav"
+
+    function Two(){
+        const website = "youTube"
+        // console.log(username);
+
+    }
+   // console.log(website);
+
+    Two()
+}
+// One()
+
+if (true){
+    const username = "Vaibhav"
+    if (username== "Vaibhav"){
+        const website = " YouTube"
+        // console.log(username + website);
+    }
+}
+
+
